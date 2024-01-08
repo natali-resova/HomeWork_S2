@@ -1,2 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+//1. Проверить кратность числа D одновременно 2 заданным числам a и b
+int D = 161;
+int a = 7;
+int b = 23;
+int r1 = D % a;
+int r2 = D % b;
+if (r1 + r2 ==0)
+{
+    Console.WriteLine($"число {D} кратно числам {a} и {b} одновременно");
+}
+else
+{
+     Console.WriteLine($"число {D} не кратно числам {a} и {b} одновременно");
+}
